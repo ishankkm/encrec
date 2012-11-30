@@ -102,7 +102,7 @@ int main(int argc, char *argv[])
 
     if(argc!=3)
       {
-       cout<<"Usage ./a.out <filename>";
+       cout<<"Usage ./a.out <record file> <index file>";
        return 1;
       }
     argw[0]=argv[0];
