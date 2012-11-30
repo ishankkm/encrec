@@ -7,7 +7,7 @@ USN as primary key which can be used to perform binary search. The key used for 
 The key can be of any length.
 
 There are 8 files in this repository.
-1. ekey.txt      : stores the key used for encryption
+1. ekey.txt      : stores the key used for encryption \n
 2. enc.cpp       : the functions used for encryption and decryption
 3. keys1.cpp     : the functions used for creating and sorting the index file
 4. PI.cpp        : the main program and flr class
