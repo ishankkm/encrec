@@ -110,7 +110,6 @@ string student::decryptrec(string tmp)
       i++;
 
      }
-    //cout<<org<<endl;
     return org;
  }
 
