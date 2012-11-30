@@ -2,20 +2,6 @@
 #include<fstream>
 #include<sstream>
 
-using namespace std;
-
-/*
-  class encdec
-   {
-      string key2;
-      string encpt;
-
-    public:
-      string encryptrec(string);
-      string decryptrec(string);
-
-   };
-*/
 
 string student::encryptrec(string org)
   {
@@ -128,23 +114,4 @@ string student::decryptrec(string tmp)
     return org;
  }
 
-
-/*
-int main()
- {
-   encdec ea;
-   ofstream f5("3.txt");
-   string s1="1MS10IS00009|Name9|ISE|sem-1$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$",temp1;
-
-   temp1=ea.encryptrec(s1); //cout<<s1<<endl<<temp1<<endl;
-
-   f5<<temp1;
-   f5.close();
-   temp1=ea.decryptrec(s1); cout<<temp1<<endl;
-
-
-
-   return 0;
-
- }*/
 
